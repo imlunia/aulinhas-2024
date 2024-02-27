@@ -1,0 +1,67 @@
+*{
+    background-color: WHITE;
+}
+
+:root{
+    --cor1: #ffc0cb
+    --fon
+}
+
+.body{
+    font: var(fo);
+}
+
+.formulario{
+    width: 500px;
+    padding: 30px;
+    border: 1px solid var(--cor1);
+    position: absolute;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.formulario h1{
+    text-align: center;
+}
+
+.formulario p{
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    margin: 1.5em;
+    text-align: center;
+}
+
+.campo{
+    display: inline-block;
+}
+
+input[type=text],
+input[type=email]
+textarea{
+    height: 30px;
+    line-height: 30px;
+    border-radius: 20px;
+    border: lpx solid rgb(72, 65, 65);
+    outline: none;
+}
+
+.campo label{
+    display: block;
+}
+
+.campo3 label{
+    display: block;
+}
+
+.area{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.popup_selecao label{
+    display: block;
+}
